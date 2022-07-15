@@ -1,3 +1,2 @@
 #!/bin/bash
-printf "%x
-" $DECIMAL
+echo "$((2#$BINARY))"
